@@ -1,6 +1,6 @@
+function ExpenseForm({ onAddExpense }) {
 
 
-function ExpenseForm() {
   return (
     <div>
       <form className="expense-form">
