@@ -1,10 +1,10 @@
-export default function ExpenseItems() {
+export default function ExpenseItems({ item, onDelete }) {
   return (
     <div>
       <div className="expense-item">
-        <span>Internet Charges </span>
-        <span>$500</span>
-        <button>❌</button>
+        <span>{item.title}</span>
+        <span>${item.amount}</span>
+        <button onClick={() => onDelete(item.id)}>❌</button>
       </div>
     </div>
   );
