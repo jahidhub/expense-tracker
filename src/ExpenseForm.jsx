@@ -33,7 +33,7 @@ function ExpenseForm({ onAddExpense }) {
           ref={titleRef}
         />
         <input
-          placeholder="Amount $"
+          placeholder="Amount ৳"
           type="number"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
